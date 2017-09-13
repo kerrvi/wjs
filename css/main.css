@@ -1,0 +1,566 @@
+/*bootstarp扩展
+*/
+.btn-kerrvi {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-kerrvi:hover,
+.btn-kerrvi:focus,
+.btn-kerrvi:active,
+.btn-kerrvi.active,
+.open .dropdown-toggle.btn-kerrvi {
+    color: #ffffff;
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-kerrvi:active,
+.btn-kerrvi.active,
+.open .dropdown-toggle.btn-kerrvi {
+    background-image: none;
+}
+
+.btn-kerrvi.disabled,
+.btn-kerrvi[disabled],
+fieldset[disabled] .btn-kerrvi,
+.btn-kerrvi.disabled:hover,
+.btn-kerrvi[disabled]:hover,
+fieldset[disabled] .btn-kerrvi:hover,
+.btn-kerrvi.disabled:focus,
+.btn-kerrvi[disabled]:focus,
+fieldset[disabled] .btn-kerrvi:focus,
+.btn-kerrvi.disabled:active,
+.btn-kerrvi[disabled]:active,
+fieldset[disabled] .btn-kerrvi:active,
+.btn-kerrvi.disabled.active,
+.btn-kerrvi[disabled].active,
+fieldset[disabled] .btn-kerrvi.active {
+    background-color: #E92322;
+    border-color: #DB3B43;
+}
+
+.btn-kerrvi .badge {
+    color: #E92322;
+    background-color: #ffffff;
+}
+
+
+.navbar-kerrvi {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.navbar-kerrvi .navbar-brand {
+    color: #777;
+    height: 80px;
+}
+.navbar-kerrvi .navbar-brand:hover,
+.navbar-kerrvi .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-kerrvi .navbar-text {
+    color: #777;
+}
+.navbar-kerrvi .navbar-nav > li > a {
+    color: #777;
+    line-height: 48px;
+}
+.navbar-kerrvi .navbar-nav > li > a:hover,
+.navbar-kerrvi .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-kerrvi .navbar-nav > .active > a,
+.navbar-kerrvi .navbar-nav > .active > a:hover,
+.navbar-kerrvi .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-bottom: 2px solid #E92322;
+}
+.navbar-kerrvi .navbar-nav > .disabled > a,
+.navbar-kerrvi .navbar-nav > .disabled > a:hover,
+.navbar-kerrvi .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-kerrvi .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.navbar-kerrvi .navbar-toggle:hover,
+.navbar-kerrvi .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-kerrvi .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-kerrvi .navbar-collapse,
+.navbar-kerrvi .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-kerrvi .navbar-nav > .open > a,
+.navbar-kerrvi .navbar-nav > .open > a:hover,
+.navbar-kerrvi .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-kerrvi .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-kerrvi .navbar-link {
+    color: #777;
+}
+.navbar-kerrvi .navbar-link:hover {
+    color: #333;
+}
+.navbar-kerrvi .btn-link {
+    color: #777;
+}
+.navbar-kerrvi .btn-link:hover,
+.navbar-kerrvi .btn-link:focus {
+    color: #333;
+}
+.navbar-kerrvi .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-kerrvi .btn-link:hover,
+.navbar-kerrvi .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-kerrvi .btn-link:focus {
+    color: #ccc;
+}
+
+
+.panel-kerrvi {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.panel-kerrvi.actived {
+    background-color: #E92322;
+    color: #ffffff;
+}
+.panel-kerrvi.actived::before {
+    content: "\e915";
+    font-family: kerrvi;
+    font-size: 50px;
+    position: absolute;
+    top: -11px;
+    left: 15px;
+}
+.panel-kerrvi.disabled {
+    background-color: #e0e0e0;
+}
+.panel-kerrvi > .panel-heading {
+    color: #333;
+    /*! background-color: #f5f5f5; */
+    border-color: #ddd;
+}
+.panel-kerrvi > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.panel-kerrvi > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+
+
+
+
+/*公共样式*/
+body {
+    font-family:  "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+@font-face {
+    font-family: 'kerrvi';
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),url('../font/MiFie-Web-Font.svg') format('svg'),url('../font/MiFie-Web-Font.ttf') format('truetype'),url('../font/MiFie-Web-Font.woff') format('woff');
+
+}
+
+[class^="icon-"],[class*=" icon-"] {
+    font-family: kerrvi;
+    font-style: normal;
+}
+.icon-mobilephone::before {
+    content: "\e908";
+    font-size: 13px;
+}
+.icon-telephone::before {
+    content: "\e909";
+    font-size: 13px;
+}
+.icon-icon::before {
+    content: "\e920";
+}
+.icon-logo::before {
+    content: "\e93e";
+}
+.icon-uniE907::before {
+    content: "\E907";
+}
+
+/*头部*/
+#header {
+
+}
+#header > .topbar {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+}
+#header > .topbar > .container {
+    height: 40px;
+}
+#header > .topbar > .container > .row > div {
+    height: 40px;
+    color: #888;
+    font-size: 12px;
+}
+#header > .topbar > .container > .row > div + div {
+    border-left: 1px solid #c0c0c0;
+}
+#header a {
+    color: #888;
+    font-size: 12px;
+}
+#header a:hover {
+    text-decoration: none;
+}
+#header .mobile-link > img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    z-index: 1001;
+    margin-left: -57px;
+}
+#header .mobile-link:hover > img {
+    display: block;
+}
+#header .col-md-3 > .btn-kerrvi {
+    color: #fff;
+}
+#header .icon-icon {
+    font-size: 50px;
+    line-height: 50px;
+    color: #E92322;
+    vertical-align: middle;
+}
+#header .icon-logo {
+    font-size: 32px;
+    color: #666;
+    /*line-height: 32px;*/
+    vertical-align: middle;
+}
+#header .navbar .navbar-nav a {
+    font-size: 14px;
+}
+/*头部结束*/
+/*轮播图开始*/
+#slider .carousel-inner > .item {
+    /*height: 410px;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    #slider .carousel-inner > .item {
+        height: 410px;
+    }
+}
+#slider .carousel-inner > .item > img {
+    width: 100%;
+}
+
+/*特色部分*/
+#tese {
+    padding: 50px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+#tese > .container > .row i {
+    font-size: 34px;
+}
+#tese > .container > .row > div {
+    margin:20px 0;
+}
+#tese > .container > .row > div > a {
+    color: #333;
+}
+#tese > .container > .row > div > a:hover {
+    text-decoration: none;
+    color: #E92322;
+}
+
+/*预约*/
+#yuYue {
+    border-bottom: 1px solid #c0c0c0;
+    padding:20px 0;
+}
+#yuYue > .container > p {
+    margin-bottom: 0;
+}
+#yuYue > .container > p > .icon-unie906::before {
+    content:"\e906" ;
+}
+#yuYue > .container > p > span {
+    color:#E92322;
+}
+#yuYue > .container > .pull-left > a {
+    color: #E92322;
+    border-bottom: 1px dashed #E92322;
+}
+#yuYue > .container > p > a:hover {
+    text-decoration: none;
+    color: #E92322;
+}
+#yuYue > .container > .pull-right > a > .icon-unie905::before {
+    content: "\e905";
+}
+
+/*产品推荐*/
+#product {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+#product > .container > ul {
+    padding-left: 20px;
+}
+#product > .container > ul > li > a {
+    font-size: 16px;
+    color: #333;
+}
+#product > .container > ul > li.active > a {
+    background-color: transparent;
+    border-bottom:4px solid #e92322;
+}
+#product .tab-content {
+    padding: 20px 0;
+}
+#product .tab-content .panel-kerrvi {
+
+}
+#product .tab-content .panel-kerrvi p {
+    margin: 0;
+}
+#product .tab-content .panel-kerrvi > .panel-heading {
+    /*background-color: #fff;*/
+    float: right;
+    width: 120px;
+    height: 150px;
+    border-left: 1px dashed #c0c0c0;
+    text-align: center;
+    position: relative;
+    padding: 45px 0;
+}
+#product .tab-content .panel-kerrvi > .panel-heading::before,
+#product .tab-content .panel-kerrvi > .panel-heading::after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    position: absolute;
+}
+#product .tab-content .panel-kerrvi > .panel-heading::before {
+    top: -8px;
+    left: -8px;
+}
+#product .tab-content .panel-kerrvi > .panel-heading::after {
+    bottom: -8px;
+    left: -8px;
+    box-shadow: 0 2px 1px #ccc inset;
+}
+#product .tab-content .panel-kerrvi > .panel-heading > .tooltips {
+    width: 100%;
+    position: absolute;
+    top: 26px;
+    text-align: center;
+}
+#product .panel-kerrvi .tooltips > .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 0;
+    padding: 3px;
+    margin: 3px;
+}
+#product .panel-kerrvi .tooltips > .badge-one {
+    color: #e92322;
+    border-color: #e92322;
+}
+#product .panel-kerrvi .tooltips > .badge-two {
+    color: #399;
+    border-color: #399;
+}
+#product .tab-content .panel-kerrvi > .panel-heading strong {
+    font-size: 30px;
+}
+
+#product .tab-content .panel-kerrvi > .panel-body {
+    /*background-color: #fff;*/
+    margin-right: 120px;
+    height: 150px;
+}
+#product .tab-content .panel-kerrvi > .panel-body .col-xs-6 {
+    margin-bottom: 8px;
+}
+
+/*新闻部分开始*/
+#news {
+    padding: 50px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+#news .newsTitle {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px dashed #c0c0c0;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    margin-right: 10px;
+}
+#news .newsTitle::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+}
+.icon-news01::before {
+    content: '\e90e';
+    font-size: 28px;
+    color: #c0c0c0;
+}
+.icon-news02::before {
+    content: '\e90f';
+    font-size: 28px;
+    color: #c0c0c0;
+}
+.icon-news03::before {
+    content: '\e910';
+    font-size: 28px;
+    color: #c0c0c0;
+}
+.icon-news04::before {
+    content: '\e911';
+    font-size: 28px;
+    color: #c0c0c0;
+}
+#news .nav {
+    border-right:1px dashed #c0c0c0;
+}
+#news .nav li {
+    left:25px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+#news .nav-tabs-kerrvi > li.active > a,
+#news .nav-tabs-kerrvi > li.active > a:hover,
+#news .nav-tabs-kerrvi > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #e92322;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+/*合作伙伴*/
+#partner {
+    padding:50px 0;
+}
+#partner ul {
+    list-style: none;
+}
+#partner ul li {
+    float: left;
+    width: calc(100% / 9);
+    text-align: center;
+    line-height: 1;
+
+}
+#partner ul li + li {
+    border-left:1px dashed #c0c0c0;
+}
+#partner ul li > a {
+    color: #999;
+}
+#partner ul li > a:hover {
+    color:#e92322 ;
+    text-decoration: none;
+}
+.icon-unie946::before {
+    content: '\e946';
+    font-size:50px;
+
+}
+.icon-unie92f::before {
+    content: '\e92f';
+    font-size:50px;
+
+}
+.icon-unie92e::before {
+    content: '\e92e';
+    font-size:50px;
+
+}
+.icon-unie92a::before {
+    content: '\e92a';
+    font-size:50px;
+
+}
+.icon-unie929::before {
+    content: '\e929';
+    font-size:50px;
+
+}
+.icon-unie931::before {
+    content: '\e931';
+    font-size:50px;
+
+}
+.icon-unie92c::before {
+    content: '\e92c';
+    font-size:50px;
+
+}
+.icon-unie92b::before {
+    content: '\e92b';
+    font-size:50px;
+
+}
+.icon-unie92d::before {
+    content: '\e92d';
+    font-size:50px;
+
+}
